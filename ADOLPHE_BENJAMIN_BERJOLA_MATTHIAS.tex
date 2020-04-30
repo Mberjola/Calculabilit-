@@ -85,11 +85,11 @@ Invariant en (*) $  a\geq 0 $  : \\
 \item Cas Inductif :  $x$ est affect\'{e} \`{a} $a$ or $x$ est un entier naturel ainsi par typage $a\ge 0$.
 \item Cas Récursif : nous supposons que l'invariant  $a\ge 0$ est vrai, montrons alors $ a' \geq 0 $ :
 \begin{itemize}
-\item[•]  1\up{er} cas :  est pair. Nous savons que $\left[ \begin{array}{c}(a\ge 0\wedge a>0\wedge \\
+\item[•]  1\up{er} cas :  est pair. Nous savons que $\forall(a,a',b,b',r,r')\in \mathbb{N}^{6}$ $\left[ \begin{array}{c}(a\ge 0\wedge a>0\wedge \\
    a '=(\frac{a}{2})\wedge a\%2=0 \wedge \\
 b '=2*b\wedge r '=r)\end{array}
 \right]$. Ainsi nous avons $a\ge 0\Leftrightarrow \frac{a}{2}\ge \frac{0}{2}\Leftrightarrow a ' \ge 0$.
-\item[•] 2\up{ème} cas : a est impair. Nous savons que $\left[ \begin{array}{c}(a\ge 0\wedge a>0\wedge \\
+\item[•] 2\up{ème} cas : a est impair. Nous savons que $\forall(a,a',b,b',r,r')\in \mathbb{N}^{6}$ $\left[ \begin{array}{c}(a\ge 0\wedge a>0\wedge \\
    r '= r+b\wedge b'=b  \wedge \\
 a '=a+1\wedge a\%2=1\end{array}
 \right]$. Ainsi nous avons  $a\ge 0$ d’après le test de boucle or  $  a\geq 0  \Leftrightarrow a-1 \ge 0-1 \Leftrightarrow a' \ge 0$ .
@@ -107,15 +107,15 @@ Invariant $(*) r+a*b = x*y$ :
 \item Cas Inductif : 0   est affecté à r, x  est affecté à a  et y   est affecté à b  ainsi $ r +a*b = 0 + a*b = x*y $. On a donc bien $ r + a*b = x*y$ .
 \item Cas Récursif : nous supposons que l'invariant  $ r + a*b = x*y$ est vrai, montrons alors que  $ r' + a'*b' = x'*y'$ est vrai :
 \begin{itemize}
-\item[•]  1\up{er} cas : a est pair.  Nous savons que $\left[ \begin{array}{c}(r + a*b = x*y\wedge a>0\wedge \\
+\item[•]  1\up{er} cas : a est pair.  Nous savons que $\forall(a,a',b,b',r,r',x,x',y,y')\in \mathbb{N}^{10}$ $\left[ \begin{array}{c} r + a*b = x*y\wedge a>0\wedge \\
 a\%2=0\wedge a'= \frac{a}{2} \wedge r'=r \wedge\\
 b'=2*b\wedge x'=x \wedge y'=y\end{array}
-\right]$.  Ainsi nous avons $ r' + a'*b' = r' + \frac{a}{2} * 2 * b  = r+ a*b$ or d’après
+\right]$. \\ Ainsi nous avons $ r' + a'*b' = r' + \frac{a}{2} * 2 * b  = r+ a*b$ or d’après
  invariant $ r+a*b = x*y $ et  $ x*y = x'*y'$. Nous avons donc bien $ r'+a'*b' = x'*y'$.
-\item[•] 2\up{ème} cas : a est impair. Nous savons que $\left[ \begin{array}{c}(r + a*b = x*y\wedge a>0\wedge \\
+\item[•] 2\up{ème} cas : a est impair. Nous savons que $\forall(a,a',b,b',r,r',x,x',y,y')\in \mathbb{N}^{10}$ $\left[ \begin{array}{c} r + a*b = x*y\wedge a>0\wedge \\
 a\%2=1\wedge a'= a-1\wedge b'=b \wedge\\
 r'=r+b\wedge b'=b\wedge x'=x \wedge y'=y\end{array}
-\right]$. Ainsi nous avons $r'+ a'*b'=r+b+(a-1)*b = r+a*b + b-b = r+a*b  $ or d’après l'invariant nous avons  $ r+a*b = x*y $et $ x*y = x'*y' $. Nous avons donc bien $ r'+a'*b' = x'*y'$.
+\right]$. \\ Ainsi nous avons $r'+ a'*b'=r+b+(a-1)*b = r+a*b + b-b = r+a*b  $ or d’après l'invariant nous avons  $ r+a*b = x*y $et $ x*y = x'*y' $. Nous avons donc bien $ r'+a'*b' = x'*y'$.
 \end{itemize}
 \end{itemize}
 \begin{Cas1}{Conclusion}
@@ -135,11 +135,11 @@ Fonction de rang à valeur dans $\mathbb{N}$:
 \item \`A chaque passage au point T1, montrons que $a \in \mathbb{N}$. D'après l'invariant de boucle $a \ge 0$ nous savons donc que $a \in \mathbb{N}$.
 \item \`A chaque fois que l'exécution passe entre le point T1 et le point T2, montrons que $a$ décroit strictement.
 \begin{itemize}
-\item[•] 1\up{er} cas: a est pair.Nous savons que $\left[ \begin{array}{c}(r + a*b = x*y\wedge a>0\wedge \\
+\item[•] 1\up{er} cas: a est pair.Nous savons que $\forall(a,a',b,b',r,r',x,x',y,y')\in \mathbb{N}^{10}$ $\left[ \begin{array}{c} r + a*b = x*y\wedge a>0\wedge \\
 a\%2=0\wedge a'= \frac{a}{2} \wedge r'=r \wedge\\
 b'=2*b\wedge x'=x \wedge y'=y\end{array}
 \right]$. Ainsi nous avons $a'=\frac{a}{2}$ donc $a>\frac{a}{2} \Leftrightarrow a>a'$. Nous avons bien $a$ strictement décroissante.
-\item[•] 2\up{ème} cas: a est impair. Nous savons que $\left[ \begin{array}{c}(r + a*b = x*y\wedge a>0\wedge \\
+\item[•] 2\up{ème} cas: a est impair. Nous savons que $\forall(a,a',b,b',r,r',x,x',y,y')\in \mathbb{N}^{10}$ $\left[ \begin{array}{c} r + a*b = x*y\wedge a>0\wedge \\
 a\%2=1\wedge a'= a-1\wedge b'=b \wedge\\
 r'=r+b\wedge b'=b\wedge x'=x \wedge y'=y\end{array}
 \right]$. Ainsi nous avons $a'=a-1$ donc $a>a-1 \Leftrightarrow a>a'$. Nous avons bien $a$ strictement décroissante.
