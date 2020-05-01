@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.30)  30 APR 2020 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.30)  1 MAY 2020 15:36
 entering extended mode
 **./ADOLPHE_BENJAMIN_BERJOLA_MATTHIAS.tex
 (ADOLPHE_BENJAMIN_BERJOLA_MATTHIAS.tex
@@ -90,6 +90,34 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
+("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+sty"
+\lst@mode=\count186
+\lst@gtempboxa=\box45
+\lst@token=\toks19
+\lst@length=\count187
+\lst@currlwidth=\dimen144
+\lst@column=\count188
+\lst@pos=\count189
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count190
+\lst@lineno=\count191
+\lst@maxwidth=\dimen147
+
+("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
+ty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count192
+\lst@skipnumbers=\count193
+\lst@framebox=\box46
+)
+("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
 y"
 Package: amsmath 2020/01/20 v2.17e AMS math features
@@ -104,53 +132,53 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
 "
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen144
+\@emptytoks=\toks20
+\ex@=\dimen148
 ))
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen145
+\pmbraise@=\dimen149
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
 "
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count186
+\inf@bad=\count194
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count187
-\leftroot@=\count188
+\uproot@=\count195
+\leftroot@=\count196
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count189
-\DOTSCASE@=\count190
+\classnum@=\count197
+\DOTSCASE@=\count198
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box45
-\strutbox@=\box46
-\big@size=\dimen146
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen150
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count191
-\c@MaxMatrixCols=\count192
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
-\c@parentequation=\count193
-\dspbrk@lvl=\count194
-\tag@help=\toks20
-\row@=\count195
-\column@=\count196
-\maxfields@=\count197
-\andhelp@=\toks21
-\eqnshift@=\dimen147
-\alignsep@=\dimen148
-\tagshift@=\dimen149
-\tagwidth@=\dimen150
-\totwidth@=\dimen151
-\lineht@=\dimen152
-\@envbody=\toks22
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks21
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks22
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks23
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -173,15 +201,15 @@ Package: tcolorbox 2019/11/15 version 4.22 text color boxes
 cs.sty"
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-common.tex"
-\pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen153
-\pgfutil@tempdimb=\dimen154
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
 
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-common-lists.tex"))
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-latex.def"
-\pgfutil@abb=\box47
+\pgfutil@abb=\box49
 
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -217,8 +245,8 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen155
-\Gin@req@width=\dimen156
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
 fsys.sty"
@@ -228,33 +256,33 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 fkeys.code.tex"
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 fkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks27
+\pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen157
-\pgf@y=\dimen158
-\pgf@xa=\dimen159
-\pgf@ya=\dimen160
-\pgf@xb=\dimen161
-\pgf@yb=\dimen162
-\pgf@xc=\dimen163
-\pgf@yc=\dimen164
-\pgf@xd=\dimen165
-\pgf@yd=\dimen166
+\pgf@x=\dimen161
+\pgf@y=\dimen162
+\pgf@xa=\dimen163
+\pgf@ya=\dimen164
+\pgf@xb=\dimen165
+\pgf@yb=\dimen166
+\pgf@xc=\dimen167
+\pgf@yc=\dimen168
+\pgf@xd=\dimen169
+\pgf@yd=\dimen170
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count198
-\c@pgf@countb=\count199
-\c@pgf@countc=\count266
-\c@pgf@countd=\count267
-\t@pgf@toka=\toks28
-\t@pgf@tokb=\toks29
-\t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count268
+\c@pgf@counta=\count272
+\c@pgf@countb=\count273
+\c@pgf@countc=\count274
+\c@pgf@countd=\count275
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count276
 
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgf.cfg"
@@ -273,8 +301,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count269
-\pgfsyssoftpath@bigbuffer@items=\count270
+\pgfsyssoftpath@smallbuffer@items=\count277
+\pgfsyssoftpath@bigbuffer@items=\count278
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgfsysprotocol.code.tex"
@@ -310,12 +338,12 @@ calc.code.tex"
 util.code.tex")
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 parser.code.tex"
-\pgfmath@dimen=\dimen167
-\pgfmath@count=\count271
-\pgfmath@box=\box48
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count279
+\pgfmath@box=\box50
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 functions.code.tex"
@@ -337,59 +365,59 @@ functions.misc.code.tex")
 functions.integerarithmetics.code.tex")))
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 float.code.tex"
-\c@pgfmathroundto@lastzeros=\count272
+\c@pgfmathroundto@lastzeros=\count280
 ))
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
 code.tex")
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen168
-\pgf@picmaxx=\dimen169
-\pgf@picminy=\dimen170
-\pgf@picmaxy=\dimen171
-\pgf@pathminx=\dimen172
-\pgf@pathmaxx=\dimen173
-\pgf@pathminy=\dimen174
-\pgf@pathmaxy=\dimen175
-\pgf@xx=\dimen176
-\pgf@xy=\dimen177
-\pgf@yx=\dimen178
-\pgf@yy=\dimen179
-\pgf@zx=\dimen180
-\pgf@zy=\dimen181
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen182
-\pgf@path@lasty=\dimen183
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen184
-\pgf@shorten@start@additional=\dimen185
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box49
-\pgf@hbox=\box50
-\pgf@layerbox@main=\box51
-\pgf@picture@serial@count=\count273
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count281
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen186
+\pgflinewidth=\dimen190
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen187
-\pgf@pt@y=\dimen188
-\pgf@pt@temp=\dimen189
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorequick.code.tex"
@@ -406,14 +434,14 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen190
+\pgfarrowsep=\dimen194
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen191
-\pgf@sys@shading@range@num=\count274
-\pgf@shadingcount=\count275
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count282
+\pgf@shadingcount=\count283
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoreimage.code.tex"
@@ -422,7 +450,7 @@ File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box52
+\pgfexternal@startupbox=\box54
 ))
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorelayers.code.tex"
@@ -443,7 +471,7 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
 oduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box53
+\pgfnodeparttextbox=\box55
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
 oduleplot.code.tex"
@@ -452,8 +480,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
 pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen192
-\pgf@nodesepend=\dimen193
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
 pgfcomp-version-1-18.sty"
@@ -462,8 +490,8 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.sty
 "
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks34
-\verbatim@line=\toks35
+\every@verbatim=\toks35
+\verbatim@line=\toks36
 \verbatim@in@stream=\read4
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/environ\environ.st
@@ -477,19 +505,19 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
 sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count276
+\etb@tempcnta=\count284
 )
-\tcb@titlebox=\box54
-\tcb@upperbox=\box55
-\tcb@lowerbox=\box56
-\tcb@phantombox=\box57
-\c@tcbbreakpart=\count277
-\c@tcblayer=\count278
-\tcolorbox@number=\count279
-\tcb@temp=\box58
-\tcb@temp=\box59
+\tcb@titlebox=\box56
+\tcb@upperbox=\box57
+\tcb@lowerbox=\box58
+\tcb@phantombox=\box59
+\c@tcbbreakpart=\count285
+\c@tcblayer=\count286
+\tcolorbox@number=\count287
 \tcb@temp=\box60
 \tcb@temp=\box61
+\tcb@temp=\box62
+\tcb@temp=\box63
 \tcb@out=\write4
 \tcb@record@out=\write5
 )
@@ -504,34 +532,6 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip57
 \pxx=\skip58
 )
-("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
-sty"
-\lst@mode=\count280
-\lst@gtempboxa=\box62
-\lst@token=\toks36
-\lst@length=\count281
-\lst@currlwidth=\dimen194
-\lst@column=\count282
-\lst@pos=\count283
-\lst@lostspace=\dimen195
-\lst@width=\dimen196
-\lst@newlines=\count284
-\lst@lineno=\count285
-\lst@maxwidth=\dimen197
-
-("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
-ty"
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count286
-\lst@skipnumbers=\count287
-\lst@framebox=\box63
-)
-("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
-cfg"
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
 ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -587,21 +587,22 @@ LaTeX Font Info:    ... okay on input line 24.
 LaTeX Info: Redefining \degres on input line 24.
 LaTeX Info: Redefining \dots on input line 24.
 LaTeX Info: Redefining \up on input line 24.
+\c@lstlisting=\count292
 
 ABD: EveryShipout initializing macros
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
+\scratchcounter=\count293
 \scratchdimen=\dimen262
 \scratchbox=\box65
-\nofMPsegments=\count293
-\nofMParguments=\count294
+\nofMPsegments=\count294
+\nofMParguments=\count295
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count295
+\MPscratchCnt=\count296
 \MPscratchDim=\dimen263
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
 \everyMPtoPDFconversion=\toks39
 )
 ("C:\Users\adolp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
@@ -610,8 +611,6 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-\c@lstlisting=\count298
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -668,66 +667,93 @@ File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 ]
 Chapitre 2.
-<algoDafny.png, id=17, 684.5575pt x 481.8pt>
+<algoDafny.png, id=18, 684.5575pt x 481.8pt>
 File: algoDafny.png Graphic file (type png)
 <use algoDafny.png>
-Package pdftex.def Info: algoDafny.png  used on input line 66.
-(pdftex.def)             Requested size: 308.04802pt x 216.80798pt.
-<algoRusse.png, id=19, 362.35374pt x 318.18875pt>
+Package pdftex.def Info: algoDafny.png  used on input line 67.
+(pdftex.def)             Requested size: 246.4405pt x 173.44786pt.
+<algoRusse.png, id=20, 437.635pt x 358.33875pt>
 File: algoRusse.png Graphic file (type png)
 <use algoRusse.png>
-Package pdftex.def Info: algoRusse.png  used on input line 67.
-(pdftex.def)             Requested size: 181.17642pt x 159.09398pt.
+Package pdftex.def Info: algoRusse.png  used on input line 68.
+(pdftex.def)             Requested size: 218.81696pt x 179.16893pt.
 
-Overfull \hbox (25.76288pt too wide) in paragraph at lines 66--68
+Overfull \hbox (1.7959pt too wide) in paragraph at lines 67--69
 [][] [] 
  []
 
+<MultRussePython.png, id=21, 333.245pt x 429.605pt>
+File: MultRussePython.png Graphic file (type png)
+<use MultRussePython.png>
+Package pdftex.def Info: MultRussePython.png  used on input line 70.
+(pdftex.def)             Requested size: 166.62209pt x 214.80197pt.
+<ExemplesPython.png, id=22, 147.55125pt x 121.45375pt>
+File: ExemplesPython.png Graphic file (type png)
+<use ExemplesPython.png>
+Package pdftex.def Info: ExemplesPython.png  used on input line 71.
+(pdftex.def)             Requested size: 147.55087pt x 121.45343pt.
 [2
 
- <./algoDafny.png> <./algoRusse.png>]
+ <./algoDafny.png> <./algoRusse.png> <./MultRussePython.png> <./ExemplesPython.
+png>]
 Chapitre 3.
 [3
 
 ] [4]
 Chapitre 4.
+
+Overfull \hbox (5.74316pt too wide) in paragraph at lines 171--172
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<TableauThéorique.png, id=48, 483.0045pt x 124.66576pt>
+File: TableauThéorique.png Graphic file (type png)
+<use TableauThéorique.png>
+Package pdftex.def Info: TableauThéorique.png  used on input line 187.
+(pdftex.def)             Requested size: 483.00331pt x 124.66544pt.
+
+Overfull \hbox (16.93126pt too wide) in paragraph at lines 187--188
+[][] 
+ []
+
 [5
 
-] (ADOLPHE_BENJAMIN_BERJOLA_MATTHIAS.aux) ) 
+] [6 <./TableauThéorique.png>] (ADOLPHE_BENJAMIN_BERJOLA_MATTHIAS.aux) ) 
 Here is how much of TeX's memory you used:
- 15751 strings out of 480930
- 294305 string characters out of 2899761
- 534660 words of memory out of 3000000
- 31355 multiletter control sequences out of 15000+200000
- 547189 words of font info for 64 fonts, out of 3000000 for 9000
+ 16037 strings out of 480930
+ 296803 string characters out of 2899761
+ 536652 words of memory out of 3000000
+ 31640 multiletter control sequences out of 15000+200000
+ 547954 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,8n,75p,935b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\adolp\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\adolp\AppData\L
-ocal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\adolp
-\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\U
-sers\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728
+ 59i,8n,75p,935b,1169s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\U
+sers\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800
 .pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1200.pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
-n/ec/dpi600\tcrm1440.pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\Users\adolp\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\adolp\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/adolp
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Users/adolp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb><C:/Users/adolp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><C:/Users/adolp/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Users/adolp/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/adolp/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/adolp/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
-s/adolp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb>
-Output written on ADOLPHE_BENJAMIN_BERJOLA_MATTHIAS.pdf (6 pages, 187338 bytes)
+0\tcrm1200.pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ecbx1200.pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\adolp\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\adolp\AppData\
+Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\adol
+p\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\
+Users\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm090
+0.pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ecrm1440.pk> <C:\Users\adolp\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecrm2074.pk><C:/Users/adolp/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/adolp/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/adolp/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/adolp/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Users/adolp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><C:/Users/adolp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/adolp/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb><C:/Users/adolp/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ADOLPHE_BENJAMIN_BERJOLA_MATTHIAS.pdf (7 pages, 266548 bytes)
 .
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
+ 336 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
