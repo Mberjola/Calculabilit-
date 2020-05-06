@@ -12,9 +12,16 @@
 
 \newtcolorbox{Cas2}[1]{colback=yellow!5!white,colframe=yellow!60!black,fonttitle=\bfseries,title=#1}
 
+
+\newtcolorbox{Cas3}[1]{colback=red!2!white,colframe=red!80!black,fonttitle=\bfseries,title=#1}
+
 \newtcolorbox{Cadre}{colback=red!5!white,colframe=red!75!black}
 
 \usepackage[Sonny]{fncychap}
+\usepackage{titlesec}
+ 
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge}
 \usepackage{listings}
 \usepackage{amssymb}
 \usepackage{graphicx}
@@ -85,14 +92,14 @@ et de récursivité.
 \begin{flushleft}
 Invariant en (*) $  a\geq 0 $  : \\
 \begin{itemize}
-\item Cas Inductif :  $x$ est affect\'{e} \`{a} $a$ or $x$ est un entier naturel ainsi par typage $a\ge 0$.
-\item Cas Récursif : nous supposons que l'invariant  $a\ge 0$ est vrai, montrons alors $ a' \geq 0 $ :
+\item Cas de Base :  $x$ est affect\'{e} \`{a} $a$ or $x$ est un entier naturel ainsi par typage $a\ge 0$.
+\item Cas Inductif : nous supposons que l'invariant  $a\ge 0$ est vrai, montrons alors $ a' \geq 0 $ :
 \begin{itemize}
-\item[•]  1\up{er} cas :  est pair. Nous savons que $\forall(a,a',b,b',r,r')\in \mathbb{N}^{6}$ $\left[ \begin{array}{c}(a\ge 0\wedge a>0\wedge \\
+\item[•]  1\up{er} cas :  est pair. Nous savons que $\forall(a,a',b,b',r,r')\in \mathbb{N}^{6}$ $\left[ \begin{array}{c}a\ge 0\wedge a>0\wedge \\
    a '=(\frac{a}{2})\wedge a\%2=0 \wedge \\
-b '=2*b\wedge r '=r)\end{array}
+b '=2*b\wedge r '=r\end{array}
 \right]$. Ainsi nous avons $a\ge 0\Leftrightarrow \frac{a}{2}\ge \frac{0}{2}\Leftrightarrow a ' \ge 0$.
-\item[•] 2\up{ème} cas : a est impair. Nous savons que $\forall(a,a',b,b',r,r')\in \mathbb{N}^{6}$ $\left[ \begin{array}{c}(a\ge 0\wedge a>0\wedge \\
+\item[•] 2\up{ème} cas : a est impair. Nous savons que $\forall(a,a',b,b',r,r')\in \mathbb{N}^{6}$ $\left[ \begin{array}{c}a\ge 0\wedge a>0\wedge \\
    r '= r+b\wedge b'=b  \wedge \\
 a '=a+1\wedge a\%2=1\end{array}
 \right]$. Ainsi nous avons  $a\ge 0$ d’après le test de boucle or  $  a\geq 0  \Leftrightarrow a-1 \ge 0-1 \Leftrightarrow a' \ge 0$ .
@@ -105,10 +112,10 @@ a '=a+1\wedge a\%2=1\end{array}
 \end{flushleft}
 
 \begin{flushleft}
-Invariant $(*) r+a*b = x*y$ :
+Invariant (*) $r+a*b = x*y$ :
 \begin{itemize}
-\item Cas Inductif : 0   est affecté à r, x  est affecté à a  et y   est affecté à b  ainsi $ r +a*b = 0 + a*b = x*y $. On a donc bien $ r + a*b = x*y$ .
-\item Cas Récursif : nous supposons que l'invariant  $ r + a*b = x*y$ est vrai, montrons alors que  $ r' + a'*b' = x'*y'$ est vrai :
+\item Cas de Base : 0   est affecté à r, x  est affecté à a  et y   est affecté à b  ainsi $ r +a*b = 0 + a*b = x*y $. On a donc bien $ r + a*b = x*y$ .
+\item Cas Inductif : nous supposons que l'invariant  $ r + a*b = x*y$ est vrai, montrons alors que  $ r' + a'*b' = x'*y'$ est vrai :
 \begin{itemize}
 \item[•]  1\up{er} cas : a est pair.  Nous savons que $\forall(a,a',b,b',r,r',x,x',y,y')\in \mathbb{N}^{10}$ $\left[ \begin{array}{c} r + a*b = x*y\wedge a>0\wedge \\
 a\%2=0\wedge a'= \frac{a}{2} \wedge r'=r \wedge\\
@@ -162,7 +169,7 @@ r'=r+b\wedge b'=b\wedge x'=x \wedge y'=y\end{array}
 \begin{mybox}{Méthode de détermination de la complexité}
 Afin de calculer la complexité de cet algorithme, nous allons utiliser les propriétés 1,2,3 et 5 du cours de complexité.
 \end{mybox}
-\begin{Cas1}{Coup en opération élémentaire}
+\begin{Cas3}{Coup en opération élémentaire}
  \begin{lstlisting}
 def MultiRusse(x:int,y:int):
     a=x   ---------------> 1
@@ -178,11 +185,50 @@ def MultiRusse(x:int,y:int):
             a=a-1     ---> 1
     return r ------------> 1
 \end{lstlisting}
-\end{Cas1}
+\end{Cas3}
 \begin{flushleft}
 On a donc un cout élémentaire de $1+1+1+1+3*x=3x+4=O(x)$. En approfondissant on se rend compte que c'est aussi un $\theta(ln(x))$.\\
-\textbf{On a donc une compléxité d'ordre de grandeur de $\theta(ln(x))$}
+\textbf{On a donc une complexité d'ordre de grandeur de $\theta(ln(x))$}
 \end{flushleft}
-\section{Valeur théorique}
-\includegraphics[scale=1]{TableauThéorique}
+\section{Expérimentation}
+\subsection{Détermination des valeurs $C_{1}$ et $C_{2}$}
+\begin{flushleft}
+\begin{mybox}{Méthode de détermination des valeurs $C_{1}$ et $C_{2}$}
+Pour déterminer les ces valeurs, nous allons faire une moyenne de temps d'exécution sur l'algorithme. Puis à l'aide d'un système d'équations, nous allons retrouver les valeurs de $C_{1}$ et $C_{2}$. 
+\end{mybox}
+\subsubsection{Résolution d'équation:}
+$\left\lbrace\begin{array}{c}
+T_{1} = C_{1}*n_{1}+C_{2}\\
+T_{2}= C_{1}*n_{2}+C_{2}
+\end{array} \right. \Leftrightarrow 
+\left\lbrace\begin{array}{c}
+T_{1} = C_{1}*n_{1}+C_{2}\\
+C_{2}=T_{2}-C_{1}*n_{2}
+\end{array} \right.\Leftrightarrow
+\left\lbrace\begin{array}{c}
+T_{1} = C_{1}*n_{1}+(T_{2}-C_{1}*n_{2})\\
+C_{2}=T_{2}-C_{1}*n_{2}
+\end{array} \right.$ \\ $ 
+\Leftrightarrow 
+\left\lbrace\begin{array}{c}
+\dfrac{T_{1}-T_{2}}{n_{1}-n_{2}} = C_{1}\\ \\
+C_{2}=T_{2}-\left(\dfrac{T_{1}-T_{2}}{n_{1}-n_{2}}\right)*n_{2}
+\end{array} \right.
+\Leftrightarrow
+\left\lbrace\begin{array}{c}
+C_{1} = \dfrac{T_{1}-T_{2}}{n_{1}-n_{2}}\\ \\
+C_{2}=T_{2}-\left(\dfrac{T_{1}-T_{2}}{n_{1}-n_{2}}\right)*n_{2}
+\end{array} \right. $
+\subsubsection{Détermination de $C_{1}$ et $C_{2}$ à l'aide d'un expérimentation:}
+On détermine $C_{1}$ et $C_{2}$ à l'aide des équations ci-dessus.
+\includegraphics[scale=0.4]{ProgC1C2}
+\includegraphics[scale=0.5]{DeterC1C2}
+Ainsi on trouve : $C_{1} = 9.982497812226529e-07$ et $C_{2} = 7089.0017502187775 $. On peut maintenant comparer une valeur expérimentale et théorique.
+\subsubsection{Valeur théorique et valeur expérimentale: }
+\includegraphics[scale=0.5]{ExpTheo} \\ Les résultats dépendent de la charge du processeur de l'ordinateur. Ainsi, lorsque l'ordinateur effectue peu de tâches le temps de calcul est très proche du temps théorique.
+\includegraphics[scale=0.5]{TempGOOD} \\
+ Alors que s'il effectue des tâches plus ou moins lourde le temps peut être très éloigné du temps théorique. \\
+ \includegraphics[scale=0.5]{TempsNOTGOOD}
+ \includegraphics[scale=0.5]{TempsNOTGOODATALL}
+\end{flushleft}
 \end{document}
