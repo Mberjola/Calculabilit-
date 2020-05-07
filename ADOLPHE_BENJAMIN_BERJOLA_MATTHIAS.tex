@@ -5,7 +5,12 @@
 \usepackage{listings}
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage[font=small,labelfont=bf]{caption}
 \usepackage{tcolorbox}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \newtcolorbox{mybox}[1]{colback=blue!5!white,colframe=blue!60!black,fonttitle=\bfseries,title=#1}
 
 \newtcolorbox{Cas1}[1]{colback=green!5!white,colframe=green!60!black,fonttitle=\bfseries,title=#1}
@@ -22,23 +27,22 @@
  
 \titleformat{\chapter}[display]
   {\normalfont\bfseries}{}{0pt}{\Huge}
-\usepackage{listings}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\author{ADOLPHE Benjamin-BERJOLA Matthias}
-\title{Multiplication Russe}
+
+
+\titleformat{\section}
+  {\normalfont\LARGE\bfseries\centering}{\thesection}{1em}{}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Multiplication russe}
+\lhead{ADOLPHE Benjamin - BERJOLA Matthias}
 \begin{document}
 
+\section*{Multiplication russe}
 
-\title{Multiplication Russe}
-\author{ADOLPHE Benjamin-BERJOLA Matthias}
+\subsection*{Introduction}
 
-
-\maketitle 
-
-\newpage
-\chapter{Introduction}
 \begin{large}
 \begin{flushleft}
 Dans le cadre de l'UE calculabilité et complexité nous avons dû réaliser plusieurs tâches sur un algorithme comprenant un contrat pré-conditions/post-conditions clair, et incluant au moins une boucle tant-que.Nous avons choisis de travailler sur l'algorithme représentant la multiplication russe et d'effectuer les tâches suivantes sur ce dernier: 
@@ -69,13 +73,32 @@ Nous allons donc exposé nos travaux dans ce rapport en prenant soin de suivre l
 %*******Code Dafny**************											   
 %*********************************                                                
 %*********************************
-\chapter{Code en Dafny et exemple d'utilisation}
-\section{Code Dafny}
-\includegraphics[scale=0.36]{algoDafny} 
-\includegraphics[scale=0.5]{algoRusse} 
+\section*{Code en Dafny et exemple d'utilisation}
+\subsection{Dafny}
+\begin{center}
+\begin{minipage}{0.48\linewidth}
+\includegraphics[width=\linewidth]{algoDafny}
+\captionof{figure}{code Dafny}
+\end{minipage}%
+\hfill
+\begin{minipage}{0.49\linewidth}
+\includegraphics[width=\linewidth]{algoRusse}
+\captionof{figure}{Algorithme de base}
+\end{minipage}
+\end{center}
 \section{Code en Python et exemple d'utilisation}
-\includegraphics[scale=0.5]{MultRussePython}
-\includegraphics[scale=1]{ExemplesPython}
+\begin{center}
+\begin{minipage}{0.48\linewidth}
+\includegraphics[width=\linewidth]{MultRussePython}
+\captionof{figure}{code Python}
+\end{minipage}%
+\hfill
+\begin{minipage}{0.49\linewidth}
+\includegraphics[width=\linewidth]{ExemplesPython}
+\captionof{figure}{Exemple d'utilisation}
+\end{minipage}
+\end{center}
+
 
 
 %*********************************
@@ -83,8 +106,8 @@ Nous allons donc exposé nos travaux dans ce rapport en prenant soin de suivre l
 %*********************************                                                
 %*********************************
 
-\chapter{Correction totale}
-\section{Correction partielle}
+\section*{Correction totale}
+\subsection{Correction partielle}
 \begin{mybox}{Méthode de détermination de la correction partielle}
 On commence par déterminer l'invariant de boucle en posant les cas de base
 et de récursivité.
@@ -133,8 +156,11 @@ r'=r+b\wedge b'=b\wedge x'=x \wedge y'=y\end{array}
 $ r+a*b=x*y $ est donc un invariant de boucle en $(*) $.
 \end{Cas1}
 \end{flushleft}
+\bigskip 
+\bigskip
+\bigskip
 
-\section{Terminaison}
+\section*{Terminaison}
 \begin{mybox}{Méthode de détermination de la terminaison}
 On détermine une fonction de rang et on prouve que celle-ci est valide. C'est-à-dire, on vérifie que la fonction de rang $\in\mathbb{R}$ au point T1 et qu'elle décroit lorsque l'exécution passe entre les points T1 et T2.
 \end{mybox}
@@ -164,8 +190,8 @@ r'=r+b\wedge b'=b\wedge x'=x \wedge y'=y\end{array}
 %*********************************                                                
 %*********************************
 
-\chapter{Complexité}
-\section{Détermination de la complexité}
+\section*{Complexité}
+\subsection{Détermination de la complexité}
 \begin{mybox}{Méthode de détermination de la complexité}
 Afin de calculer la complexité de cet algorithme, nous allons utiliser les propriétés 1,2,3 et 5 du cours de complexité.
 \end{mybox}
@@ -190,7 +216,7 @@ def MultiRusse(x:int,y:int):
 On a donc un cout élémentaire de $1+1+1+1+3*x=3x+4=O(x)$. En approfondissant on se rend compte que c'est aussi un $\theta(ln(x))$.\\
 \textbf{On a donc une complexité d'ordre de grandeur de $\theta(ln(x))$}
 \end{flushleft}
-\section{Expérimentation}
+\section*{Expérimentation}
 \subsection{Détermination des valeurs $C_{1}$ et $C_{2}$}
 \begin{flushleft}
 \begin{mybox}{Méthode de détermination des valeurs $C_{1}$ et $C_{2}$}
@@ -221,8 +247,15 @@ C_{2}=T_{2}-\left(\dfrac{T_{1}-T_{2}}{n_{1}-n_{2}}\right)*n_{2}
 \end{array} \right. $
 \subsubsection{Détermination de $C_{1}$ et $C_{2}$ à l'aide d'un expérimentation:}
 On détermine $C_{1}$ et $C_{2}$ à l'aide des équations ci-dessus.
-\includegraphics[scale=0.4]{ProgC1C2}
-\includegraphics[scale=0.5]{DeterC1C2}
+\begin{center}
+\begin{minipage}{0.48\linewidth}
+\includegraphics[width=\linewidth]{ProgC1C2}
+\end{minipage}%
+\hfill
+\begin{minipage}{0.49\linewidth}
+\includegraphics[width=\linewidth]{DeterC1C2}
+\end{minipage}
+\end{center}
 Ainsi on trouve : $C_{1} = 833.964154737176$ et $C_{2} = -3206.640584735207 $. On peut maintenant comparer une valeur expérimentale et théorique.
 \subsubsection{Valeur théorique et valeur expérimentale: }
 \includegraphics[scale=0.5]{ExpTheo} \\ Les résultats dépendent de la charge du processeur de l'ordinateur. Ainsi, lorsque l'ordinateur effectue peu de tâches le temps de calcul est très proche du temps théorique.
@@ -230,5 +263,23 @@ Ainsi on trouve : $C_{1} = 833.964154737176$ et $C_{2} = -3206.640584735207 $. O
  Alors que s'il effectue des tâches plus ou moins lourde le temps peut être très éloigné du temps théorique. \\
  \includegraphics[scale=0.5]{TempsNOTGOOD}
  \includegraphics[scale=0.5]{TempsNOTGOODATALL}
+ \begin{center}
+\begin{minipage}{0.48\linewidth}
+\includegraphics[width=\linewidth]{courbeClean}
+\captionof{figure}{courbe correcte}
+\end{minipage}%
+\hfill
+\begin{minipage}{0.49\linewidth}
+\includegraphics[width=\linewidth]{courbePasCleanDuTout}
+\captionof{figure}{courbe erronée }
+\end{minipage}
+\end{center}
 \end{flushleft}
+
+\section*{Conclusion}
+\begin{flushleft}
+
+\end{flushleft}
+En conclusion on a pu démontré la correction totale de l'algorithme et sa rapidité d'exécution d'exécution du fait de sa complexité en $ \theta ln(x)$.On peut également tiré plusieurs choses de ce projet.Il faut lorsque c'est possible(comme c'était le cas ici) effectué une vérification expérimentale, les résultats ressortant de cette expérimentation peuvent confirmer d'avantages ou réfuter les résultats obtenues de manière calculatoire.Il ne faut pas se limiter à une seule expérimentation, dans notre cas des résultats plutôt se montrent après une série de 3 essais minimum. 
+
 \end{document}
